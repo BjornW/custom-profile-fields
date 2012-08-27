@@ -1,0 +1,307 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bbExtendProfile\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/repo\n"
+"POT-Creation-Date: 2011-01-06 09:08:23+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Bjorn Wijers <burobjorn@burobjorn.n>\n"
+"Language-Team: Bjorn Wijers <burobjorn@burobjorn.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+
+#: lib/bbFieldImage.class.php:23
+msgid "Add an image"
+msgstr "Voeg een plaatje toe"
+
+#: lib/bbFieldImage.class.php:30
+#: lib/bbFieldTextMultiLine.class.php:28
+#: lib/bbFieldSelect.class.php:48
+#: lib/bbFieldCheckbox.class.php:35
+#: lib/bbFieldRadio.class.php:27
+#: lib/bbFieldDate.class.php:26
+#: lib/bbFieldTextSingleLine.class.php:28
+msgid "(required)"
+msgstr "(Verplicht)"
+
+#: lib/bbFieldImage.class.php:44
+msgid "Remove"
+msgstr "Verwijder"
+
+#: bbExtendProfile.php:174
+msgid "Extra Fields"
+msgstr "Extra Velden"
+
+#: bbExtendProfile.php:176
+msgid "Single-line"
+msgstr "Enkele-regel"
+
+#: bbExtendProfile.php:177
+msgid "Multi-line"
+msgstr "Meerdere-regels"
+
+#. __('WYSISWYG Multi-line', $this->localization_domain)        =>
+#. $field_type_prepend . 'RichMultiLine',
+#: bbExtendProfile.php:179
+msgid "Date"
+msgstr "Datum"
+
+#: bbExtendProfile.php:180
+msgid "Image"
+msgstr "Plaatje"
+
+#. __('Location', $this->localization_domain)                   =>
+#. $field_type_prepend . 'Location',
+#: bbExtendProfile.php:185
+msgid "Single-choice (radio)"
+msgstr "Single-choice (radio)"
+
+#: bbExtendProfile.php:186
+msgid "Multiple-choice (checkbox)"
+msgstr "Multiple-choice (checkbox)"
+
+#: bbExtendProfile.php:187
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: bbExtendProfile.php:240
+msgid "Settings"
+msgstr "Instellingen"
+
+#: bbExtendProfile.php:304
+msgid "Are you sure you want to remove this field including any associated user data? There is no undo..."
+msgstr "Weet je zeker dat je dit veld wilt verwijderen inclusief eventuele gekoppelde gebruikersdata. Er is geen 'maak ongedaan' knop... "
+
+#: bbExtendProfile.php:305
+msgid "You forgot to fill in some required fields. These are marked red. Please correct your mistake and try again"
+msgstr "Je bent een of meedere verplichte velden vergeten in te vullen. Deze zijn rood gemarkeerd. Vul deze alstjeblief in en probeer het opnieuw. "
+
+#: bbExtendProfile.php:330
+msgid "Succes! Saved options!"
+msgstr "Succes! Instellingen opgeslagen!"
+
+#: bbExtendProfile.php:332
+msgid "Failure! Could not save options!"
+msgstr "Fout! Instellingen konden niet worden opgeslagen!"
+
+#: bbExtendProfile.php:342
+msgid "Can't add field. Field label is empty. A field label is mandatory"
+msgstr "Kan het veld niet toevoegen. Het veld label is leeg. Een veld label is verplicht."
+
+#: bbExtendProfile.php:346
+msgid "Can't add field. Field label is already in use. Use a different field label"
+msgstr "Kan het veld niet toevoegen. Het veld label is al in gebruik. Gebruik een ander label voor het veld."
+
+#: bbExtendProfile.php:350
+msgid "Can't add field. Field type unknown. Select other field type"
+msgstr "Kan geen veld toevoegen. Veld type is onbekend. Selecteer een ander veld type."
+
+#: bbExtendProfile.php:358
+msgid "Can't add field. Database issues. Contact administrator"
+msgstr "Kan veld niet toevoegen. Database problemen. Neem contact op met je webmaster"
+
+#: bbExtendProfile.php:368
+msgid "Field removed!"
+msgstr "Veld verwijderd!"
+
+#: bbExtendProfile.php:372
+msgid "Could not remove field!"
+msgstr "Kon veld niet verwijderen!"
+
+#: bbExtendProfile.php:384
+msgid "Can't edit field. Field does not exist."
+msgstr "Kan veld niet aanpassen. Veld bestaat niet."
+
+#: bbExtendProfile.php:398
+msgid "Can't change field. Field name is empty. A field name is mandatory"
+msgstr "Kan veld niet aanpassen. Veld naam is leeg. Een veld naam is verplicht"
+
+#: bbExtendProfile.php:405
+msgid "Can't change field. Field label already in use. Use a different field label"
+msgstr "Kan veld niet aanpassen. Veld label is al in gebruik. Gebruik een ander veld label"
+
+#: bbExtendProfile.php:411
+msgid "Can't change field'. Field type requires at least one field option (label/value) to be set"
+msgstr "Kan veld niet aanpassen. Veld type vereist minimaal 1 veld optie (label/waarde) die gezet dient te worden"
+
+#: bbExtendProfile.php:422
+msgid "Updated field successfully!"
+msgstr "Veld is aangepast!"
+
+#: bbExtendProfile.php:428
+msgid "Field could not be updated. Database issues. Contact administrator"
+msgstr "Veld kon niet worden aangepast. Database problemen. Neem contact op met de webmaster"
+
+#: bbExtendProfile.php:495
+msgid "<h2>bbExtendProfile Settings</h2>"
+msgstr "<h2>bbExtendedProfile Instellingen</h2>"
+
+#: bbExtendProfile.php:498
+msgid "<h2>Add new field</h2>"
+msgstr "<h2>Voeg een nieuw veld toe</h2>"
+
+#: bbExtendProfile.php:499
+msgid ""
+"<p>Keep in mind, that you cannot change a field's type after creating it. <br />\n"
+"        All other field attributes can be changed, though.</p>"
+msgstr ""
+"<p>Hou in gedachten dat je een veld's type niet meer kan wijzigen nadat je het veld hebt aangemaakt.<br />\n"
+"Alle andere veld eigenschappen kun je verder wel aanpassen.</p>"
+
+#: bbExtendProfile.php:506
+msgid "Field label:"
+msgstr "Veld label:"
+
+#: bbExtendProfile.php:512
+msgid "Field type:"
+msgstr "Veld type:"
+
+#: bbExtendProfile.php:519
+msgid "Add field"
+msgstr "Veld toevoegen"
+
+#: bbExtendProfile.php:526
+msgid "<h2>Available fields</h2>"
+msgstr "<h2>Beschikbare velden</h2>"
+
+#: bbExtendProfile.php:533
+msgid "Field Label"
+msgstr "Veld Label"
+
+#: bbExtendProfile.php:534
+msgid "Field Meta Key"
+msgstr "Veld Meta Key"
+
+#: bbExtendProfile.php:535
+msgid "Field Type"
+msgstr "Veld Type"
+
+#: bbExtendProfile.php:536
+msgid "Active Field"
+msgstr "Actief Veld"
+
+#: bbExtendProfile.php:537
+msgid "Required Field"
+msgstr "Verplicht Veld"
+
+#: bbExtendProfile.php:538
+msgid "Field Order"
+msgstr "Veld Volgorde"
+
+#: bbExtendProfile.php:539
+msgid "Used"
+msgstr "Gebruikt"
+
+#: bbExtendProfile.php:540
+msgid "Actions"
+msgstr "Acties"
+
+#: bbExtendProfile.php:544
+#: bbExtendProfile.php:545
+msgid "Yes"
+msgstr "Ja"
+
+#: bbExtendProfile.php:544
+#: bbExtendProfile.php:545
+msgid "No"
+msgstr "Nee"
+
+#: bbExtendProfile.php:562
+msgid "<p>There are no fields available. Have you tried adding a new field?</p>"
+msgstr "<p>Er zijn nog geen velden aanwezig. Heb je al geprobeert een veld toe te voegen</p>"
+
+#: bbExtendProfile.php:565
+msgid "<h2>Advanced options</h2>"
+msgstr "<h2>Geavanceerde Instellingen</h2>"
+
+#: bbExtendProfile.php:571
+msgid "Remove data on plugin delete:"
+msgstr "Verwijder data bij het verwijderen van de plugin:"
+
+#: bbExtendProfile.php:578
+msgid "Hide contact info (AIM, Yahoo IM & Jabber / Google Talk) in profiles"
+msgstr "Verberg de contact informatie (AIM, Yahoo IM & Jabber / Google Talk) in de profielen"
+
+#: bbExtendProfile.php:589
+msgid "Hide Personal Options in profiles"
+msgstr "Verberg de Persoonlijk Opties in de profielen"
+
+#: bbExtendProfile.php:600
+msgid "Extended Fields section title:"
+msgstr "Extended Fields sectie titel:"
+
+#: bbExtendProfile.php:610
+msgid "Save advanced options"
+msgstr "Sla geavanceerde instellingen op"
+
+#: bbExtendProfile.php:683
+msgid "Field label: "
+msgstr "Veld label:"
+
+#: bbExtendProfile.php:690
+msgid "Field type: "
+msgstr "Veld type:"
+
+#: bbExtendProfile.php:700
+msgid "Field order:"
+msgstr "Veld volgorde:"
+
+#: bbExtendProfile.php:706
+msgid "Active field:"
+msgstr "Actief veld:"
+
+#: bbExtendProfile.php:712
+msgid "Field Rules"
+msgstr "Veld Regels"
+
+#: bbExtendProfile.php:717
+msgid "Required field:"
+msgstr "Verplicht veld:"
+
+#: bbExtendProfile.php:725
+msgid "Users with role(s) are <strong>not</strong> allowed to edit this field:"
+msgstr "Gebruikers met deze rol(len) mogen dit veld <strong>niet</strong> aanpassen:"
+
+#: bbExtendProfile.php:734
+msgid "Users with role(s) are <strong>not</strong> allowed to view this field:"
+msgstr "Gebruikers met deze rol(len) mogen dit veld <strong>niet</strong> zien: "
+
+#: bbExtendProfile.php:752
+msgid "Save field options"
+msgstr "Bewaar veld instellingen"
+
+#: bbExtendProfile.php:757
+msgid "Cancel, back to main menu"
+msgstr "Terug naar hoofdmenu"
+
+#: bbExtendProfile.php:771
+msgid "Field values: "
+msgstr "Veld waarden:"
+
+#: bbExtendProfile.php:773
+msgid "Option label:"
+msgstr "Optie label:"
+
+#: bbExtendProfile.php:774
+msgid "Option value:"
+msgstr "Optie waarde:"
+
+#: bbExtendProfile.php:776
+msgid "Option is selected:"
+msgstr "Optie is geselecteerd:"
+
+#: bbExtendProfile.php:778
+msgid "Default option:"
+msgstr "Standaard optie:"
+
+#: bbExtendProfile.php:800
+#: bbExtendProfile.php:831
+msgid "Default (selected value)"
+msgstr "Standaard (geselecteerde waarde)"
+
+#: bbExtendProfile.php:860
+msgid "Add another value"
+msgstr "Voeg nog een waarde toe"
+

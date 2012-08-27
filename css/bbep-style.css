@@ -1,0 +1,9 @@
+textarea.bbep-warning, 
+input[type="text"].bbep-warning,
+input[type="password"].bbep-warning,
+input[type="file"].bbep-warning,
+select.bbep-warning { border: #ff0000 solid 2px; }
+
+td.bbep-warning { border: #ff0000 solid 2px; background-color: #ff0000; }
+
+img.bbep-current-image { padding: 5px; border:1px solid #BBBBBB; margin: 5px;}

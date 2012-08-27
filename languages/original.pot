@@ -1,0 +1,308 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/repo\n"
+"POT-Creation-Date: 2011-01-06 09:08:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: lib/bbFieldImage.class.php:23
+msgid "Add an image"
+msgstr ""
+
+#: lib/bbFieldImage.class.php:30 lib/bbFieldTextMultiLine.class.php:28
+#: lib/bbFieldSelect.class.php:48 lib/bbFieldCheckbox.class.php:35
+#: lib/bbFieldRadio.class.php:27 lib/bbFieldDate.class.php:26
+#: lib/bbFieldTextSingleLine.class.php:28
+msgid "(required)"
+msgstr ""
+
+#: lib/bbFieldImage.class.php:44
+msgid "Remove"
+msgstr ""
+
+#: bbExtendProfile.php:174
+msgid "Extra Fields"
+msgstr ""
+
+#: bbExtendProfile.php:176
+msgid "Single-line"
+msgstr ""
+
+#: bbExtendProfile.php:177
+msgid "Multi-line"
+msgstr ""
+
+#. __('WYSISWYG Multi-line', $this->localization_domain)        =>
+#. $field_type_prepend . 'RichMultiLine',
+#: bbExtendProfile.php:179
+msgid "Date"
+msgstr ""
+
+#: bbExtendProfile.php:180
+msgid "Image"
+msgstr ""
+
+#. __('Location', $this->localization_domain)                   =>
+#. $field_type_prepend . 'Location',
+#: bbExtendProfile.php:185
+msgid "Single-choice (radio)"
+msgstr ""
+
+#: bbExtendProfile.php:186
+msgid "Multiple-choice (checkbox)"
+msgstr ""
+
+#: bbExtendProfile.php:187
+msgid "Dropdown"
+msgstr ""
+
+#: bbExtendProfile.php:240
+msgid "Settings"
+msgstr ""
+
+#: bbExtendProfile.php:304
+msgid ""
+"Are you sure you want to remove this field including any associated user "
+"data? There is no undo..."
+msgstr ""
+
+#: bbExtendProfile.php:305
+msgid ""
+"You forgot to fill in some required fields. These are marked red. Please "
+"correct your mistake and try again"
+msgstr ""
+
+#: bbExtendProfile.php:330
+msgid "Succes! Saved options!"
+msgstr ""
+
+#: bbExtendProfile.php:332
+msgid "Failure! Could not save options!"
+msgstr ""
+
+#: bbExtendProfile.php:342
+msgid "Can't add field. Field label is empty. A field label is mandatory"
+msgstr ""
+
+#: bbExtendProfile.php:346
+msgid ""
+"Can't add field. Field label is already in use. Use a different field label"
+msgstr ""
+
+#: bbExtendProfile.php:350
+msgid "Can't add field. Field type unknown. Select other field type"
+msgstr ""
+
+#: bbExtendProfile.php:358
+msgid "Can't add field. Database issues. Contact administrator"
+msgstr ""
+
+#: bbExtendProfile.php:368
+msgid "Field removed!"
+msgstr ""
+
+#: bbExtendProfile.php:372
+msgid "Could not remove field!"
+msgstr ""
+
+#: bbExtendProfile.php:384
+msgid "Can't edit field. Field does not exist."
+msgstr ""
+
+#: bbExtendProfile.php:398
+msgid "Can't change field. Field name is empty. A field name is mandatory"
+msgstr ""
+
+#: bbExtendProfile.php:405
+msgid ""
+"Can't change field. Field label already in use. Use a different field label"
+msgstr ""
+
+#: bbExtendProfile.php:411
+msgid ""
+"Can't change field'. Field type requires at least one field option (label/"
+"value) to be set"
+msgstr ""
+
+#: bbExtendProfile.php:422
+msgid "Updated field successfully!"
+msgstr ""
+
+#: bbExtendProfile.php:428
+msgid "Field could not be updated. Database issues. Contact administrator"
+msgstr ""
+
+#: bbExtendProfile.php:495
+msgid "<h2>bbExtendProfile Settings</h2>"
+msgstr ""
+
+#: bbExtendProfile.php:498
+msgid "<h2>Add new field</h2>"
+msgstr ""
+
+#: bbExtendProfile.php:499
+msgid ""
+"<p>Keep in mind, that you cannot change a field's type after creating it. "
+"<br />\n"
+"        All other field attributes can be changed, though.</p>"
+msgstr ""
+
+#: bbExtendProfile.php:506
+msgid "Field label:"
+msgstr ""
+
+#: bbExtendProfile.php:512
+msgid "Field type:"
+msgstr ""
+
+#: bbExtendProfile.php:519
+msgid "Add field"
+msgstr ""
+
+#: bbExtendProfile.php:526
+msgid "<h2>Available fields</h2>"
+msgstr ""
+
+#: bbExtendProfile.php:533
+msgid "Field Label"
+msgstr ""
+
+#: bbExtendProfile.php:534
+msgid "Field Meta Key"
+msgstr ""
+
+#: bbExtendProfile.php:535
+msgid "Field Type"
+msgstr ""
+
+#: bbExtendProfile.php:536
+msgid "Active Field"
+msgstr ""
+
+#: bbExtendProfile.php:537
+msgid "Required Field"
+msgstr ""
+
+#: bbExtendProfile.php:538
+msgid "Field Order"
+msgstr ""
+
+#: bbExtendProfile.php:539
+msgid "Used"
+msgstr ""
+
+#: bbExtendProfile.php:540
+msgid "Actions"
+msgstr ""
+
+#: bbExtendProfile.php:544 bbExtendProfile.php:545
+msgid "Yes"
+msgstr ""
+
+#: bbExtendProfile.php:544 bbExtendProfile.php:545
+msgid "No"
+msgstr ""
+
+#: bbExtendProfile.php:562
+msgid ""
+"<p>There are no fields available. Have you tried adding a new field?</p>"
+msgstr ""
+
+#: bbExtendProfile.php:565
+msgid "<h2>Advanced options</h2>"
+msgstr ""
+
+#: bbExtendProfile.php:571
+msgid "Remove data on plugin delete:"
+msgstr ""
+
+#: bbExtendProfile.php:578
+msgid "Hide contact info (AIM, Yahoo IM & Jabber / Google Talk) in profiles"
+msgstr ""
+
+#: bbExtendProfile.php:589
+msgid "Hide Personal Options in profiles"
+msgstr ""
+
+#: bbExtendProfile.php:600
+msgid "Extended Fields section title:"
+msgstr ""
+
+#: bbExtendProfile.php:610
+msgid "Save advanced options"
+msgstr ""
+
+#: bbExtendProfile.php:683
+msgid "Field label: "
+msgstr ""
+
+#: bbExtendProfile.php:690
+msgid "Field type: "
+msgstr ""
+
+#: bbExtendProfile.php:700
+msgid "Field order:"
+msgstr ""
+
+#: bbExtendProfile.php:706
+msgid "Active field:"
+msgstr ""
+
+#: bbExtendProfile.php:712
+msgid "Field Rules"
+msgstr ""
+
+#: bbExtendProfile.php:717
+msgid "Required field:"
+msgstr ""
+
+#: bbExtendProfile.php:725
+msgid "Users with role(s) are <strong>not</strong> allowed to edit this field:"
+msgstr ""
+
+#: bbExtendProfile.php:734
+msgid "Users with role(s) are <strong>not</strong> allowed to view this field:"
+msgstr ""
+
+#: bbExtendProfile.php:752
+msgid "Save field options"
+msgstr ""
+
+#: bbExtendProfile.php:757
+msgid "Cancel, back to main menu"
+msgstr ""
+
+#: bbExtendProfile.php:771
+msgid "Field values: "
+msgstr ""
+
+#: bbExtendProfile.php:773
+msgid "Option label:"
+msgstr ""
+
+#: bbExtendProfile.php:774
+msgid "Option value:"
+msgstr ""
+
+#: bbExtendProfile.php:776
+msgid "Option is selected:"
+msgstr ""
+
+#: bbExtendProfile.php:778
+msgid "Default option:"
+msgstr ""
+
+#: bbExtendProfile.php:800 bbExtendProfile.php:831
+msgid "Default (selected value)"
+msgstr ""
+
+#: bbExtendProfile.php:860
+msgid "Add another value"
+msgstr ""
