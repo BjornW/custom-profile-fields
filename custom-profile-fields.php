@@ -27,8 +27,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 
-if ( ! class_exists('bbExtendProfile')) {
-  class bbExtendProfile {
+if ( ! class_exists('CustomProfileFields')) {
+  class CustomProfileFields {
 
     /**
      * @var string The options string name for this plugin
@@ -1581,8 +1581,8 @@ if ( ! class_exists('bbExtendProfile')) {
 }
 
 // instantiate the class
-if ( class_exists('bbExtendProfile') ) {
-  $bbep_var = new bbExtendProfile();
+if ( class_exists('CustomProfileFields') ) {
+  $bbep_var = new CustomProfileFields();
   register_activation_hook(__FILE__, array(&$bbep_var,'setup_database') );
 }
 
